@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>freeCodeCamp Feedback Form</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <main>
+    <body>
+      <div id="top-title" class="middle">
+        <h1 id="title">freeCodeCamp Feedback Form</h1>
+        <p id="description">
+          Thank you for taking the time to help us improve the platform
+        </p>
+      </div>
+      <div id="form" class="middle">
+        <form id="survey-form" action="">
+          <label id="name-label" for="name">Name</label><br />
+          <input id="name" name="name" type="text" required /><br /><br />
+          <label id="email-label" for="email">Email</label><br />
+          <input id="email" name="email" type="text" required /><br /><br />
+          <label id="number-label" for="number">Age (optional)</label><br />
+          <input id="number" name="number" type="text" /><br /><br />
+          <label id="dropwdown-label" for="dropdown"
+            >Which option best describes your current role?</label
+          ><br />
+          <select name="dropdown" id="dropdown">
+            <option value="student">Student</option>
+            <option value="full-time-job">Full Time Job</option>
+            <option value="other">Other</option> </select
+          ><br /><br />
+          <input
+            type="radio"
+            id="definitely"
+            name="recommend"
+            value="definitely"
+          />
+          <label for="definitely">Definitely</label><br />
+          <input type="radio" id="maybe" name="recommend" value="maybe" />
+          <label for="maybe">Maybe</label><br />
+
+          <input type="radio" id="possibly" name="recommend" value="not-yet" />
+          <label for="not-yet">Not yet</label><br /><br />
+
+          <label id="textarea-label" for="textarea">Additional comments</label
+          ><br />
+          <textarea name="textarea" id="textarea" cols="40" rows="5"></textarea
+          ><br />
+          <input type="submit" />
+        </form>
+      </div>
+    </body>
+  </main>
+</html>

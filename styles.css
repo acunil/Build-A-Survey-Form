@@ -1,0 +1,16 @@
+body {
+  font-family: "Open Sans";
+}
+
+#middle {
+  max-width: 400px;
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  color: white;
+  background-color: blueviolet;
+  font-weight: 300;
+  text-align: center;
+}
